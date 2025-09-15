@@ -1,0 +1,16 @@
+import processing.svg.*;     
+size(1056,1056);
+noFill();
+triangle(311,626,599,57,886,626);
+triangle(311,600,573,57,886,626);
+triangle(311,574,517,54,886,626);
+triangle(311,548,491,54,886,626);
+circle(129,129,129);
+circle(800,180,175);
+circle(65,65,65);
+circle(400,90,87);
+circle(400,90,30);
+circle(800,180,100);
+square(150,450,130);
+square(150,300,130);    
+square(150,600,130);

@@ -1,0 +1,16 @@
+import processing.svg.*; 
+beginRecord(SVG, "myCoolPlot.svg");
+size(1056,1056);
+noFill();
+triangle(311,626,599,57,886,626);
+triangle(311,600,573,57,886,626);
+triangle(311,574,517,54,886,626);
+triangle(311,548,491,54,886,626);
+triangle(776,736,204,341,698,161);
+triangle(827,741,207,341,698,161);
+triangle(879,767,246,367,776,199);
+line(0,0,129,129); 
+line(1056,0,911,129);
+line(0,798,200,450);
+line(1056,788,880,450);
+endRecord();
