@@ -1,5 +1,5 @@
 color backgroundColor = #ffffff;
-void setup() {
+void setup () {
 size(400,400);
 }
 
