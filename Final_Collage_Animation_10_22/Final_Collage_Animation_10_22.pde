@@ -32,7 +32,7 @@ void drawImage(PImage img, float tx, float ty, float sc, float rot, float ix, fl
 }
 void draw() {
   background(#ff00ff);
-  float t = frameCount * 0.50;
+  float t = frameCount * 0.60;
   drawImage(SnackOne, 120, 142, 0.7, TAU * (0.00 + 0.09 * sin(t)), -464, -268);
   drawImage(NightSky, 158, 157 + 10 * sin(t * 0.5), 0.8, TAU * 1.02, -154, 93);
   drawImage(WaterOne, 191, 179, 0.6, TAU * (0.98 + 0.01 * cos(t)), -295, -461);
