@@ -1,3 +1,4 @@
+  // https://tenor.com/users/amoore228
   // 1. Declare PImage variables
 PImage YankeeOne, WaterOne, WaterTwo, SnackOne, SnackTwo, SnackThree, SnackFour, SnackFive, SnackSix;
 PImage Home, HomeTwo, NightSky, Doggo, BabyJesus, Creepy, Jersey;
@@ -48,8 +49,6 @@ void draw() {
   drawImage(Jersey, 532, 316, 0.3, TAU * (1.0 + 0.02 * sin(t * 0.8)), -435, -35);
   drawImage(SnackFour, 545, 213 + 18 * sin(t * 1.0 + 2.3), 0.3, TAU * 2.0 , -1258, 164);
   drawImage(HomeTwo, 127, 504, 0.5, TAU * (0.01 * cos(t)), -23, 116);
-  if (frameCount > 360) frameCount = 0;
-  if (frameCount <= 360) saveFrame("frames/frame####.PNG");
 }
 
   
